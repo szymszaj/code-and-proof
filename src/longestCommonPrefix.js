@@ -11,3 +11,5 @@ function longestCommonPrefix(strs) {
   }
   return prefix;
 }
+
+module.exports = longestCommonPrefix;
