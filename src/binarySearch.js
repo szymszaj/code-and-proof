@@ -15,3 +15,5 @@ function binarySearch(arr, target) {
   }
   return -1;
 }
+
+module.exports = binarySearch;
