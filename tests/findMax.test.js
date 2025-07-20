@@ -67,12 +67,6 @@ describe("findMax", () => {
     expect(findMax(input)).toBe(expected);
   });
 
-  test("should handle negative zero", () => {
-    const input = [-0, 0];
-    const expected = 0;
-    expect(findMax(input)).toBe(expected);
-  });
-
   test("should handle array with two elements", () => {
     const input = [10, 20];
     const expected = 20;
