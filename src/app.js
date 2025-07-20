@@ -10,3 +10,5 @@ function isPalindrome(str) {
 function removeDuplicates(arr) {
   return [...new Set(arr)];
 }
+
+module.exports = { reverseString, isPalindrome, removeDuplicates };
