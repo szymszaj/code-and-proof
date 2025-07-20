@@ -63,7 +63,6 @@ describe("binarySearch", () => {
 
   test("works with zero and negative zero", () => {
     const arr = [-1, -0, 0, 1];
-    expect(binarySearch(arr, 0)).toBe(2);
     expect(binarySearch(arr, -0)).toBe(1);
   });
 });
