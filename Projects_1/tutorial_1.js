@@ -5,11 +5,10 @@ console.log("hello", name, "welcome to our game!");
 
 const shouldWePlay = prompt("Do you want to play?");
 
-const condition =
-  shouldWePlay.toLowerCase() === "yes" || shouldWePlay.toLowerCase() === "y";
-
-if (condition) {
+if (shouldWePlay.toLowerCase() === "yes") {
   console.log("Great! Let's play.");
+} else if (shouldWePlay.toLowerCase() === "no") {
+  console.log("Okay, maybe next time!");
 } else {
-  console.log("Maybe next time!");
+  console.log("invalid input....");
 }
