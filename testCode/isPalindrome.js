@@ -3,5 +3,5 @@ function isPalindrome(str) {
   return cleaned === cleaned.split("").reverse().join("");
 }
 
-console.log(isPalindrome("A man, a plan, a canal: Panama")); // true
-console.log(isPalindrome("race a car")); // false
+console.log(isPalindrome("A man, a plan, a canal: Panama"));
+console.log(isPalindrome("race a car"));
