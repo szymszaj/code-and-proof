@@ -10,8 +10,7 @@ function isValid(s) {
     if (map[char]) {
       stack.push(char);
     } else {
-      const last = stack.pop();
-      if (map[last] !== char) {
+      if (stack.length === 0 || map[stack.pop()] !== char) {
         return false;
       }
     }
