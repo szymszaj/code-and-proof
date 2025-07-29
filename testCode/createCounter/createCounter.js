@@ -1,7 +1,7 @@
 var gcdOfStrings = function (str1, str2) {
-  let count = n - 1;
-  return function () {
-    counter++;
-    return count;
-  };
+  if (str1 + str2 !== str2 + str1) return "";
+
+  const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
+  const len = gcd(str1.length, str2.length);
+  return str1.substring(0, len);
 };
