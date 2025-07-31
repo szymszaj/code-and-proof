@@ -1,5 +1,4 @@
 const prompt = require("prompt-sync")();
-// prompt("What is your name? ");
 const name = prompt("what is your name? ");
 console.log("hello", name, "welcome to our game!");
 
